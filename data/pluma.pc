@@ -1,0 +1,12 @@
+prefix=/home/jeremy/Bureau/PLUMA_HACK
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+pluginsdir=${exec_prefix}/lib/pluma/plugins
+
+Name: pluma
+Description: pluma
+Requires: gtksourceview-3.0 libpeas-1.0 libpeas-gtk-1.0
+Version: 1.19.0
+Cflags: -I${includedir}/pluma
+Libs: -L${libdir}
